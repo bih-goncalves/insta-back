@@ -1,0 +1,20 @@
+{
+  "name": "insta-back",
+  "version": "1.0.0",
+  "description": "backend for the instagram clone made in rocketseat's class",
+  "main": "index.js",
+  "repository": "https://github.com/bih-goncalves/insta-back.git",
+  "author": "Bianca Gonçalves",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
